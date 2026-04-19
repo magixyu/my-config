@@ -1,0 +1,23 @@
+[url "ssh://git@codeup.aliyun.com/"]
+	insteadof = https://codeup.aliyun.com/
+
+[url "ssh://git@e.coding.net/"]
+	insteadof = https://e.coding.net/
+[user]
+	email = tristan.yu@outlook.com
+	name = tr1st0nyu
+[alias]
+	lg = log --graph --pretty=tformat:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --decorate=full
+        structure = log --oneline --simplify-by-decoration --graph --all
+        st = status
+        c = commit
+        sw = switch
+        br = branch
+[credential "https://cnb.cool"]
+	provider = generic
+[credential]
+	helper = manager
+	interactive = auto
+	useHttpPath = false
+[url "https://cnb:16127aMironXclHV9Vn3da7FcOA@cnb.cool"]
+	insteadOf = https://cnb.cool
