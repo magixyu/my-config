@@ -1,3 +1,9 @@
+[general]
+working_directory="C:\\N-21HEPF4TV5C0-Data\\tristany"
+import = [
+    "~/.config/alacritty/themes/themes/monokai_charcoal.toml"
+]
+
 [window]
 opacity = 0.9
 dynamic_title = true
@@ -18,13 +24,8 @@ size = 10.5
 family = "Maple Mono NF CN"
 style = "Regular"
 
-
 [terminal]
 shell="pwsh.exe"
-
-[general]
-working_directory="C:\\N-21HEPF4TV5C0-Data\\tristany"
-
 
 [selection]
 save_to_clipboard = true

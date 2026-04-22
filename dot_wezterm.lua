@@ -12,13 +12,13 @@ act = wezterm.action
 -- This is where you actually apply your config choices.
 
 -- For example, changing the initial geometry for new windows:
-config.initial_cols = 140
+config.initial_cols = 150
 config.initial_rows = 36
 
 -- or, changing the font size and color scheme.
 config.font = wezterm.font 'Maple Mono NF CN'
 config.font_size = 10
-config.color_scheme = 'AdventureTime'
+config.color_scheme = 'LiquidCarbonTransparent'
 
 config.default_prog = { 'pwsh.exe' }
 
